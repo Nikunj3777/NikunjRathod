@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Website</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .heading-section {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .box {
+      background-color: #eaeaea;
+      padding: 20px;
+    }
+    
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+      
+      .heading-section {
+        font-size: 24px;
+      }
+      
+      .box {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="heading-section">
+      <h1>Section 1</h1>
+    </div>
+    <div class="box">
+      <p>This is a filled box.</p>
+    </div>
+  </div>
+</body>
+</html>
