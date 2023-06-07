@@ -250,7 +250,8 @@ justify-content: center;
     gap: 30px;
 }
 .imagebox{
-    max-width: 33%;
+    max-width: 30%;
+    width: 100%;
 }
 
 /* Images on click dialogue box preview image--------------------------------------------> */
