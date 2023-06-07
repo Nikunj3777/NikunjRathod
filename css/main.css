@@ -655,6 +655,9 @@ input:hover{
 
 @media screen and (max-width:800px)
  {
+    body{
+        overflow-x: hidden;
+    }
     .researchcontainer {width:100%;}
     .container{width: 90%;}
     .container h3{font-size: 47px;}
