@@ -17,6 +17,10 @@ body{
     margin: 0;
     
 }
+img{
+    width: 100%;
+    display: block;
+}
 ul{
     margin: 0px;
     padding: 0px;
@@ -237,6 +241,18 @@ justify-content: center;
 .sec_section{
     background-color: #fafafa;
 }
+
+
+/* UI Screen Images-----------------------------------  */
+.imagecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.imagebox{
+    max-width: 33%;
+}
+
 /* Images on click dialogue box preview image--------------------------------------------> */
 
 .modal {
