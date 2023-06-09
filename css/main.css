@@ -1,5 +1,5 @@
-*{
-    font-family: 'sf pro';
+html *{
+    font-family:'sf pro';
     box-sizing: border-box;
 }
 /* .dark-mode {
@@ -13,7 +13,7 @@
 body{
     
     font-size: 20px;
-    font-family: 'arial';
+    /* font-family: 'sf pro'; */
     margin: 0;
     
 }
