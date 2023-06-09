@@ -41,6 +41,7 @@ ul{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    overflow-x: hidden;
     
 }
 .navbar_menu{
@@ -377,13 +378,13 @@ justify-content: center;
     line-height: 28.8px;
 
 }
-.mail_button{
+.mail_button
+{
     color: white;
     height: 56px;
     width: 313px;
     background-color: #1847FF;
     border-radius: 4px;
-    
     font-size: 16px;
     font-weight:regular;
    text-align: center;
