@@ -407,8 +407,8 @@ justify-content: center;
     
 }
 .profileimage{
-    margin-top: 30px;
-    margin-left: 169px;
+    max-width: 57%;
+    margin-left: auto;
 }
 .paragraph2{
     color: #757575;
@@ -684,9 +684,12 @@ input:hover{
     .ux_case_study{width: 100%; margin:0%;}
     .imagebox{max-width: 100%;}
     .button{font-size: 12px;}
-    .profileimage{width: 100%; height: auto;}
+    .profileimage{    max-width: 50%;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;}
     .imagecontainer{flex: 100%; justify-content: center;}
-   
+
     
     
    }
