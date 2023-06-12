@@ -98,31 +98,44 @@ ul{
     width: 50px;
      background: black; margin-top: 6px;
 }
-.vertical_menu{ 
-    width: 600px;
+.responsive_menu {
     display: none;
+    list-style-type: none;
+  }
+  .menulink{display: none;}
 
-}
-/* .vertical_menu a {
-    background-color: #eee;
-    color: black;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-  } */
 
  @media screen and (max-width: 830px)
 {
   .list
   {
   	display: none;
+    
    }
+   list_item a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   
+}
+   .list a:hover
+   {
+    color: #6F84D7;
+    transition: .6s;
+}
   	.menu
     {
   	  float: right;
    	 display: block;
    } 
+    .responsive_menu.active
+     {
+        display: block;
 
+    }
+   .menulink
+   {
+    display: block;
+}
   
   }
 
@@ -675,7 +688,9 @@ input:hover{
 
 @media screen and (max-width:800px)
  {
-
+    body{
+        font-family: 'Times New Roman', Times, serif;
+    }
     .researchcontainer {width:100%;}
     .container{width: 90%;}
     .container h3{font-size: 47px;}
@@ -683,7 +698,7 @@ input:hover{
     .case_study_name1 a{font-size: 20px;}
     .ux_case_study{width: 100%; margin:0%;}
     .imagebox{max-width: 100%;}
-    .button{font-size: 12px;}
+  
     .profileimage{    max-width: 50%;
         margin-bottom: 20px;
         margin-left: auto;
