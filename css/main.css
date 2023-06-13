@@ -704,6 +704,7 @@ input:hover{
     body{
         font-family: 'Times New Roman', Times, serif;
     }
+    .navbar{backdrop-filter: blur(100px);}
     .researchcontainer {width:100%;}
     .container{width: 90%;}
     .container h3{font-size: 47px;}
