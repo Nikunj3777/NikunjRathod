@@ -143,6 +143,8 @@ ul{
         
         display: grid;
     justify-items: center;
+    font-size: xx-large;
+    height: 750px;
 
     }
    .menulink
