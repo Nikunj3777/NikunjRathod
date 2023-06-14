@@ -24,9 +24,41 @@
                     <li class="list_item"><a href="./Work.html">Work</a></li>
                     <li class="list_item"><a href="https://dribbble.com/Nikunj3777">Dribbble</a></li>
                 </ul>
+                <a href="#" class="menulink" id="vertical_menu">
+                    <div class="menu" style="margin-top: 8px;">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </a>
+
+               
             </div>
+
+            <ul class="responsive_menu">
+                <li class="list_item"><a href="My Demo Website.html">Home</a></li>
+                <li class="list_item"><a href="#Profile">About</a></li>
+                <li class="list_item"><a href="Contact.html">Contact</a></li>
+                <li class="list_item"><a href="Work.html">Work</a></li>
+                <li class="list_item"><a href="https://dribbble.com/Nikunj3777">Dribbble</a></li>
         </div>
+
+
+
+
     </nav>
+    <script>
+        function toggleMenu()
+        {
+          const responsiveMenu = document.querySelector('.responsive_menu');
+          responsiveMenu.classList.toggle('active');
+      }
+  
+      const menuLink = document.querySelector('.menulink');
+      menuLink.addEventListener('click', toggleMenu);
+          
+      </script>
+  
 
 
        <div class="zomato_cover_container clear">
