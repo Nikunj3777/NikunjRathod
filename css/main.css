@@ -139,12 +139,13 @@ ul{
     transition: .6s;
 }
   	.menu
-    {
+    { 
   	  float: right;
    	 display: block;
    } 
     .responsive_menu.active
      {
+        
         
         display: grid;
     justify-items: center;
@@ -152,8 +153,14 @@ ul{
     height: 750px;
     padding-bottom: 275px;
     padding-top: 50px;
-
+ 
+   
     }
+   
+   
+   
+
+    
    .menulink
    {
     display: block;
@@ -289,6 +296,9 @@ justify-content: center;
 .imagebox{
     max-width: 30%;
     width: 100%;
+}
+.image-model{
+    cursor: pointer;
 }
 
 /* Images on click dialogue box preview image--------------------------------------------> */
