@@ -446,8 +446,9 @@ justify-content: center;
 }
 .copyright{
     color: white;
-    letter-spacing: 1.6;
+    letter-spacing: 0.1em;
     margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 15px;
     
 }
@@ -741,8 +742,9 @@ input:hover{
         margin-left: auto;
         margin-right: auto;}
     .imagecontainer{flex: 100%; justify-content: center;}
-    
-
+    .workimages{max-width: 100%;}
+    .myworkcontainer{ margin-bottom: 100px;}
     
     
    }
+ 
