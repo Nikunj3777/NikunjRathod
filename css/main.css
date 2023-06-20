@@ -704,17 +704,21 @@ input:hover{
    height: 400px; */
 }
 .workimages{
-    width: 353px;
-    height: 353px;
+    max-width: 30%;
+    width: 100%;
+    
     cursor: pointer;
 }
 /* .myworkcontainer img{
     
     margin-right: 60px;
 } */
-.second_row_images img{
-    margin-right: 44px;
-    margin-top: 44px;
+.work_image_container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
 }
 
 
