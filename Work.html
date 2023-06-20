@@ -18,30 +18,68 @@
                 <a class="logo">uixnikunj</a>
                 <ul class="list">
                    
-                    <li class="list_item"><a href="My Demo Website.html">Home</a></li>
+                    <li class="list_item"><a href="./index.html">Home</a></li>
                     <li class="list_item"><a href="#Profile">About</a></li>
-                    <li class="list_item"><a href="Contact.html">Contact</a></li>
-                    <li class="list_item"><a href="work.html">Work</a></li>
+                    <li class="list_item"><a href="./Contact.html">Contact</a></li>
+                    <li class="list_item"><a href="./Work.html">Work</a></li>
                     <li class="list_item"><a href="https://dribbble.com/Nikunj3777">Dribbble</a></li>
                 </ul>
+                <a href="#" class="menulink" id="vertical_menu">
+                    <div class="menu" style="margin-top: 8px;">
+                        <div class="line"></div>
+                        <div class="line line2"></div>
+                        <div class="line"></div>
+                    </div>
+                </a>
+
+
+             
+
+
+
+
+
+
+               
             </div>
+
+            <ul class="responsive_menu">
+                <li class="list_item"><a href="./index.html">Home</a></li>
+                <li class="list_item"><a href="#Profile">About</a></li>
+                <li class="list_item"><a href="./Contact.html">Contact</a></li>
+                <li class="list_item"><a href="./Work.html">Work</a></li>
+                <li class="list_item"><a href="https://dribbble.com/Nikunj3777">Dribbble</a></li>
+            </ul>
+            
         </div>
     </nav>
+      <!-- JAVA SCRIPT FOR HAMBURGER MENU -->
+      <script>
+        function toggleMenu()
+        {
+          const responsiveMenu = document.querySelector('.responsive_menu');
+          responsiveMenu.classList.toggle('active');
+      }
+  
+      const menuLink = document.querySelector('.menulink');
+      menuLink.addEventListener('click', toggleMenu);
+          
+      </script>
 
     <div class="container">
       <div class="myworkcontainer">
-        <img class="top_image" src="C:\Users\SMART\Desktop\Nikunj\Personal\My Demo Website\Images\Dribbble shot HD - 1.png">
+        <img class="top_image" src="./Images/Dribbble shot HD - 1.png">
         </div>
 
           
         <div class="second_row_images">
-          <image class="workimages" src="C:\Users\SMART\Desktop\Nikunj\Personal\My Demo Website\Images\Instagram post - 1.png"></image>
-          <image class="workimages" src="C:\Users\SMART\Desktop\Nikunj\Personal\My Demo Website\Images\Instagram post - 5.png"></image>
-          <image class="workimages" src="C:\Users\SMART\Desktop\Nikunj\Personal\My Demo Website\Images\Dribbble shot HD - 1 (1).png"></image>
-          <image class="workimages" src="C:\Users\SMART\Desktop\Nikunj\Personal\My Demo Website\Images\Flight Ticket Booking.png"></image>
-          <image class="workimages" src="C:\Users\SMART\Desktop\Nikunj\Personal\My Demo Website\Images\Instagram post - 1 (2).png"></image>
-          <image class="workimages" src="C:\Users\SMART\Desktop\Nikunj\Personal\My Demo Website\Images\CSgo.png"></image>
-          <image class="workimages" src="C:\Users\SMART\Desktop\Nikunj\Personal\My Demo Website\Images\plantstore.png"></image>
+          <image class="workimages" src="./Images/Instagram post - 1.png"></image>
+          <image class="workimages" src="./Images/Instagram post - 5.png"></image>
+          <image class="workimages" src="./Images/Dribbble shot HD - 1 (1).png"></image>
+          <image class="workimages" src="./Images/Flight Ticket Booking.png"></image>
+          <image class="workimages" src="./Images/Instagram post - 1 (2).png"></image>
+          <image class="workimages" src="./Images/CSgo.png"></image>
+          <image class="workimages" src="./Images/plantstore.png"></image>
 
 
       </div>
