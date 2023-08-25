@@ -202,6 +202,8 @@ h3{
     color: #575757;
     letter-spacing: 0.05em;
     line-height: 1.6em;
+    max-width: 502px;
+    margin: 18px auto 18px auto;
 }
 .button
 {
